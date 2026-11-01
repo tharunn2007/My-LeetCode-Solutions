@@ -6,8 +6,4 @@ class Solution:
             if nums[i] == maxim:
                 continue
             else:
-                while nums[i]!=maxim:
-                    nums[i]+=1
-                    count+=1
-        return count
-            
+                	[-1000000000, 10000
