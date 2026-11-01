@@ -1,9 +1,10 @@
 class Solution:
     def minMoves(self, nums: list[int]) -> int:
-        maxim = max(nums)
-        count = 0 
+        #number additions to give max  = number of subtraction to give min so yeaa easy shi
+        minim = min(nums)
+        count = 0
+
         for i in range(len(nums)):
-            if nums[i] == maxim:
-                continue
-            else:
-                	[-1000000000, 10000
+            count += nums[i] - minim
+
+        return count
